@@ -311,10 +311,9 @@ code {
 }
 
 .watch-card img {
-  border-radius: 28px;
-  aspect-ratio: 1 / var(--watch-aspect-ratio);
+  border-radius: 22px;
+  aspect-ratio: 1 / 1;
   object-fit: cover;
-  transform: scale(var(--watch-zoom-factor));
   background: #07101f;
 }
 
@@ -436,12 +435,8 @@ code {
 
 .screenshot-grid {
   display: grid;
-  grid-template-columns: 1.15fr repeat(2, 0.85fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 18px;
-}
-
-.screenshot-large {
-  grid-row: span 2;
 }
 
 .screenshot-card {
@@ -456,9 +451,6 @@ code {
   object-fit: cover;
 }
 
-.screenshot-large img {
-  aspect-ratio: 11 / 18;
-}
 
 .screenshot-card figcaption {
   padding-top: 12px;
@@ -604,11 +596,6 @@ code {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .screenshot-large {
-    grid-row: span 1;
-    grid-column: span 2;
-  }
-
   .device-showcase {
     min-height: 0;
   }
@@ -650,10 +637,6 @@ code {
   .footer-grid {
     grid-template-columns: 1fr;
     display: grid;
-  }
-
-  .screenshot-large {
-    grid-column: auto;
   }
 
   .phone-card {
