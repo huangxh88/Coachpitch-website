@@ -272,7 +272,6 @@ code {
 .feature-card,
 .step-card,
 .screenshot-card,
-.beta-grid,
 .faq-item,
 .legal-card {
   border-radius: var(--radius);
@@ -458,59 +457,8 @@ code {
   font-size: 0.94rem;
 }
 
-.beta-grid {
-  display: grid;
-  grid-template-columns: 1.05fr 0.95fr;
-  gap: 28px;
-  padding: 34px;
-}
-
-.beta-grid h2 {
-  margin: 0;
-  font-size: clamp(2rem, 3.8vw, 3.4rem);
-  letter-spacing: -0.04em;
-}
-
-.beta-grid p {
-  color: var(--muted);
-  line-height: 1.74;
-}
-
 .helper-text {
   margin-top: 18px;
-}
-
-.beta-form {
-  display: grid;
-  gap: 10px;
-}
-
-.beta-form label {
-  font-size: 0.94rem;
-  font-weight: 700;
-  color: var(--text);
-}
-
-.beta-form label span {
-  color: var(--muted-soft);
-  font-weight: 500;
-}
-
-.beta-form input {
-  border: 1px solid rgba(255,255,255,0.11);
-  border-radius: 18px;
-  background: rgba(255,255,255,0.05);
-  color: var(--text);
-  padding: 15px 16px;
-  font: inherit;
-  margin-bottom: 8px;
-}
-
-.beta-form input::placeholder { color: rgba(245,248,255,0.35); }
-.beta-form input:focus {
-  outline: none;
-  border-color: rgba(102,247,212,0.45);
-  box-shadow: 0 0 0 4px rgba(102,247,212,0.10);
 }
 
 .form-note {
@@ -584,8 +532,7 @@ code {
   }
 
   .hero-grid,
-  .how-grid,
-  .beta-grid {
+  .how-grid {
     grid-template-columns: 1fr;
   }
 
@@ -654,9 +601,5 @@ code {
 
   .content-section {
     padding: 72px 0;
-  }
-
-  .beta-grid {
-    padding: 24px;
   }
 }

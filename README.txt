@@ -20,7 +20,7 @@ Image filenames expected by the homepage:
 How to use:
 1. Copy these files into your GitHub repository root.
 2. Add your real screenshots/mockups into the assets folder using the filenames above.
-3. Update the beta signup form action in index.html when you're ready to connect Formspree, Mailchimp, ConvertKit, or another service.
+3. Update copy and contact details in the HTML files as needed for your launch.
 4. Replace hello@coachpitch.app with your real contact email if needed.
 5. Deploy the repo to Render as a Static Site.
 
