@@ -1,68 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>CoachPitch</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<style>
-body{
-margin:0;
-font-family:system-ui;
-background:#020617;
-color:white;
-}
-
-.hero{
-height:100vh;
-display:flex;
-align-items:center;
-justify-content:center;
-flex-direction:column;
-text-align:center;
-padding:40px;
-}
-
-h1{
-font-size:48px;
-margin-bottom:10px;
-}
-
-p{
-color:#94a3b8;
-font-size:18px;
-max-width:500px;
-}
-
-button{
-margin-top:25px;
-padding:14px 28px;
-font-size:16px;
-border-radius:30px;
-border:none;
-background:#22c55e;
-color:black;
-font-weight:600;
-cursor:pointer;
-}
-</style>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CoachPitch | Smart Pitch Communication</title>
+  <meta name="description" content="CoachPitch helps coaches send pitch signals from phone to watch with a premium, modern workflow built for softball and baseball teams." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
+  <div class="site-shell">
+    <header class="topbar">
+      <div class="container nav-row">
+        <a class="brand" href="index.html" aria-label="CoachPitch home">
+          <span class="brand-mark">CP</span>
+          <span class="brand-text-wrap">
+            <span class="brand-text">CoachPitch</span>
+            <span class="brand-subtext">Private beta</span>
+          </span>
+        </a>
 
-<section class="hero">
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a href="#features">Features</a>
+          <a href="#how-it-works">How it works</a>
+          <a href="#screenshots">Screenshots</a>
+          <a href="#beta">Join beta</a>
+          <a href="faq.html">FAQ</a>
+          <a href="privacy.html">Privacy</a>
+        </nav>
 
-<h1>CoachPitch</h1>
+        <a class="button button-primary nav-cta" href="#beta">Request beta access</a>
+      </div>
+    </header>
 
-<p>
-Send pitch signals from your phone to a smartwatch instantly.
-Built for modern softball and baseball teams.
-</p>
+    <main>
+      <section class="hero-section">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <div class="eyebrow">Premium pitch communication for modern teams</div>
+            <h1>Send pitch signals from phone to watch.</h1>
+            <p class="hero-text">
+              CoachPitch helps coaches call pitches faster, cleaner, and more discreetly with paired smartwatch support across iPhone + Apple Watch and Android + Wear OS.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#beta">Join the beta</a>
+              <a class="button button-secondary" href="#how-it-works">See how it works</a>
+            </div>
+            <div class="hero-badges">
+              <div class="mini-card">
+                <strong>Cross-platform</strong>
+                <span>iOS + watchOS and Android + Wear OS</span>
+              </div>
+              <div class="mini-card">
+                <strong>Game-ready</strong>
+                <span>Pitch type, location, history, and bullpen tools</span>
+              </div>
+              <div class="mini-card">
+                <strong>Private beta</strong>
+                <span>Join the waitlist for future testing access</span>
+              </div>
+            </div>
+          </div>
 
-<button>Join Beta</button>
+          <div class="hero-visual">
+            <div class="device-showcase">
+              <div class="showcase-glow"></div>
+              <div class="phone-card glass-panel">
+                <div class="device-label">Coach view</div>
+                <img src="assets/screenshot-phone-1.svg" alt="CoachPitch phone interface showing pitch calling controls" />
+              </div>
+              <div class="watch-stack">
+                <div class="watch-card glass-panel">
+                  <div class="device-label">Apple Watch</div>
+                  <img src="assets/screenshot-watch-1.svg" alt="CoachPitch Apple Watch catcher view" />
+                </div>
+                <div class="watch-card glass-panel">
+                  <div class="device-label">Wear OS</div>
+                  <img src="assets/screenshot-watch-2.svg" alt="CoachPitch Wear OS catcher view" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-</section>
+      <section class="brand-strip">
+        <div class="container strip-grid">
+          <span>Built for fast game situations</span>
+          <span>Minimal, premium interface</span>
+          <span>Designed for coaches, pitchers, and catchers</span>
+          <span>Private beta now open for interest signups</span>
+        </div>
+      </section>
 
+      <section id="features" class="content-section">
+        <div class="container">
+          <div class="section-head">
+            <div class="eyebrow">Features</div>
+            <h2>Built for pressure moments.</h2>
+            <p>
+              CoachPitch keeps communication simple when the game speeds up. The workflow is streamlined, discreet, and built to feel natural from dugout to device.
+            </p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card glass-panel">
+              <h3>Instant pitch signals</h3>
+              <p>Send pitch calls from the phone to a paired watch in seconds, so coaches and players can move faster without relying on traditional hand signals alone.</p>
+            </article>
+            <article class="feature-card glass-panel">
+              <h3>Cross-platform support</h3>
+              <p>Built for both iPhone + Apple Watch and Android + Wear OS, giving teams flexibility across the devices they already use.</p>
+            </article>
+            <article class="feature-card glass-panel">
+              <h3>Clean game workflow</h3>
+              <p>Call pitch type, choose location, and manage context from one modern interface that keeps the focus on execution.</p>
+            </article>
+            <article class="feature-card glass-panel">
+              <h3>Pitch history</h3>
+              <p>Review prior calls and patterns from a clear historical view to support communication, planning, and in-game awareness.</p>
+            </article>
+            <article class="feature-card glass-panel">
+              <h3>Bullpen-friendly setup</h3>
+              <p>Useful for practices, bullpen sessions, and team development environments where efficient repetition matters.</p>
+            </article>
+            <article class="feature-card glass-panel">
+              <h3>Premium, minimal design</h3>
+              <p>A focused interface with minimal clutter, inspired by modern sports-tech products and designed for real-world usability.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="how-it-works" class="content-section section-alt">
+        <div class="container how-grid">
+          <div class="section-head left-align">
+            <div class="eyebrow">How it works</div>
+            <h2>From dugout to device in a few taps.</h2>
+            <p>
+              The CoachPitch flow is designed to be intuitive for the coach and instantly readable for the player wearing the paired watch.
+            </p>
+          </div>
+
+          <div class="steps-list">
+            <article class="step-card glass-panel">
+              <span class="step-number">1</span>
+              <div>
+                <h3>Choose pitch type</h3>
+                <p>Select the pitcher and pitch from the phone app.</p>
+              </div>
+            </article>
+            <article class="step-card glass-panel">
+              <span class="step-number">2</span>
+              <div>
+                <h3>Set the target</h3>
+                <p>Choose location and game context from the streamlined control screen.</p>
+              </div>
+            </article>
+            <article class="step-card glass-panel">
+              <span class="step-number">3</span>
+              <div>
+                <h3>Send instantly</h3>
+                <p>Transmit the signal to the paired watch with one clean action.</p>
+              </div>
+            </article>
+            <article class="step-card glass-panel">
+              <span class="step-number">4</span>
+              <div>
+                <h3>Receive discreetly</h3>
+                <p>The player sees the pitch call clearly on the watch without slowing down the moment.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="screenshots" class="content-section">
+        <div class="container">
+          <div class="section-head">
+            <div class="eyebrow">Screenshots</div>
+            <h2>Designed to look sharp on every device.</h2>
+            <p>
+              The layout below is already wired for your previously created screenshots and mockups. Drop your image files into the included <code>assets</code> folder using the filenames shown in the README.
+            </p>
+          </div>
+
+          <div class="screenshot-grid">
+            <figure class="screenshot-card screenshot-large glass-panel">
+              <img src="assets/screenshot-phone-2.svg" alt="CoachPitch pitch location and count interface on phone" />
+              <figcaption>Main coach interface</figcaption>
+            </figure>
+            <figure class="screenshot-card glass-panel">
+              <img src="assets/screenshot-phone-3.svg" alt="CoachPitch phone screenshot showing pitch selection screen" />
+              <figcaption>Pitch selection</figcaption>
+            </figure>
+            <figure class="screenshot-card glass-panel">
+              <img src="assets/screenshot-phone-4.svg" alt="CoachPitch phone screenshot showing pitch history" />
+              <figcaption>Pitch history</figcaption>
+            </figure>
+            <figure class="screenshot-card glass-panel">
+              <img src="assets/screenshot-watch-3.svg" alt="CoachPitch Apple Watch pitch display" />
+              <figcaption>Watch command view</figcaption>
+            </figure>
+            <figure class="screenshot-card glass-panel">
+              <img src="assets/screenshot-watch-4.svg" alt="CoachPitch Wear OS pitch display" />
+              <figcaption>Wear OS view</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section id="beta" class="content-section section-alt">
+        <div class="container beta-grid glass-panel">
+          <div>
+            <div class="eyebrow">Private beta</div>
+            <h2>Join the CoachPitch interest list.</h2>
+            <p>
+              CoachPitch is currently in private testing. Sign up to hear about beta access, launch updates, and future availability.
+            </p>
+            <p class="helper-text">
+              This form is ready for you to connect to Formspree, Mailchimp, ConvertKit, or another signup tool. Replace the form <code>action</code> in <code>index.html</code> when you're ready.
+            </p>
+          </div>
+
+          <form class="beta-form" action="#" method="post">
+            <label for="email">Email address</label>
+            <input id="email" name="email" type="email" placeholder="you@example.com" required />
+
+            <label for="team">Team / organization <span>(optional)</span></label>
+            <input id="team" name="team" type="text" placeholder="Team name" />
+
+            <label for="role">Role <span>(optional)</span></label>
+            <input id="role" name="role" type="text" placeholder="Coach, parent, trainer..." />
+
+            <button class="button button-primary button-full" type="submit">Request beta access</button>
+            <p class="form-note">By signing up, you agree to be contacted about CoachPitch beta access and product updates.</p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="footer-brand">CoachPitch</div>
+          <p>Smart pitch communication for modern teams.</p>
+        </div>
+        <div class="footer-links">
+          <a href="faq.html">FAQ</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="mailto:hello@coachpitch.app">Contact</a>
+        </div>
+      </div>
+    </footer>
+  </div>
 </body>
 </html>
