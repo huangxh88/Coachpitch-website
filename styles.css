@@ -11,6 +11,7 @@
   --accent-2: #8de9ff;
   --shadow: 0 18px 70px rgba(0, 0, 0, 0.34);
   --radius: 28px;
+  --watch-image-ratio: 1.18;
   --watch-image-scale: 1.18;
 }
 
@@ -310,7 +311,7 @@ code {
 
 .watch-card img {
   border-radius: 28px;
-  aspect-ratio: 1 / var(--watch-image-scale);
+  aspect-ratio: 1 / var(--watch-image-ratio);
   object-fit: cover;
   transform: scale(var(--watch-image-scale));
   background: #07101f;
