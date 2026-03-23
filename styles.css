@@ -450,6 +450,19 @@ code {
   object-fit: cover;
 }
 
+.screenshot-card-watch {
+  width: min(100%, 250px);
+  justify-self: center;
+  padding: 10px;
+}
+
+.screenshot-card-watch img {
+  aspect-ratio: 1 / 1;
+  border-radius: 20px;
+  object-fit: contain;
+  padding: 14px;
+}
+
 
 .screenshot-card figcaption {
   padding-top: 12px;
